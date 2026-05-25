@@ -2,6 +2,7 @@ from fastapi import FastAPI, APIRouter, HTTPException
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
+from pymongo import UpdateOne
 import os
 import logging
 from pathlib import Path
@@ -231,11 +232,12 @@ async def seed_products():
         logging.info(f"Seeded {len(docs)} products")
     else:
         # Refresh image_url on existing records so seed image changes propagate
-        for p in SEED_PRODUCTS:
-            await db.products.update_one(
-                {"slug": p["slug"]},
-                {"$set": {"image_url": p["image_url"]}},
-            )
+        ops = [
+            UpdateOne({"slug": p["slug"]}, {"$set": {"image_url": p["image_url"]}})
+            for p in SEED_PRODUCTS
+        ]
+        if ops:
+            await db.products.bulk_write(ops, ordered=False)
         logging.info(f"Refreshed image_url on {len(SEED_PRODUCTS)} products")
 
 
