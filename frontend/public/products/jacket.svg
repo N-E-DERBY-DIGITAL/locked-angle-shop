@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#191919"/>
+      <stop offset="60%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="hi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="50%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0e0e0e"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.18 0"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" filter="url(#grain)" opacity="0.6"/>
+
+  <!-- Bomber Jacket silhouette -->
+  <g transform="translate(400, 520)">
+    <ellipse cx="0" cy="320" rx="240" ry="22" fill="#000" opacity="0.6"/>
+    <!-- collar -->
+    <path d="M -90 -240 C -60 -260, 60 -260, 90 -240 L 70 -210 C 40 -224, -40 -224, -70 -210 Z" fill="#0a0a0a" stroke="#262626" stroke-width="2"/>
+    <!-- body -->
+    <path d="M -180 -220 L -260 -180 L -290 -60 L -260 -40 L -240 -70 L -240 240 L 240 240 L 240 -70 L 260 -40 L 290 -60 L 260 -180 L 180 -220 L 90 -240 L 70 -210 L 0 -180 L -70 -210 L -90 -240 Z"
+          fill="url(#hi)" stroke="#2a2a2a" stroke-width="2"/>
+    <!-- center zip -->
+    <line x1="0" y1="-180" x2="0" y2="240" stroke="#000" stroke-width="3"/>
+    <line x1="-4" y1="-180" x2="-4" y2="240" stroke="#3a3a3a" stroke-width="1" opacity="0.8"/>
+    <line x1="4" y1="-180" x2="4" y2="240" stroke="#3a3a3a" stroke-width="1" opacity="0.8"/>
+    <circle cx="0" cy="-160" r="6" fill="#e62020" opacity="0.85"/>
+    <!-- pockets -->
+    <path d="M -180 60 L -180 160 L -90 160 L -90 60 Z" fill="none" stroke="#000" stroke-width="2" opacity="0.55"/>
+    <path d="M 180 60 L 180 160 L 90 160 L 90 60 Z" fill="none" stroke="#000" stroke-width="2" opacity="0.55"/>
+    <!-- ribbed cuffs/hem -->
+    <rect x="-240" y="230" width="480" height="14" fill="#0c0c0c"/>
+    <rect x="-290" y="-68" width="40" height="14" fill="#0c0c0c"/>
+    <rect x="250" y="-68" width="40" height="14" fill="#0c0c0c"/>
+  </g>
+
+  <g font-family="Bebas Neue, Impact, sans-serif" fill="#f0ede8">
+    <text x="40" y="60" font-size="22" letter-spacing="6" opacity="0.55">LOCKED / ANGLE</text>
+    <text x="40" y="970" font-size="20" letter-spacing="6" opacity="0.45">— OUTERWEAR / NYLON</text>
+  </g>
+  <line x1="40" y1="78" x2="120" y2="78" stroke="#e62020" stroke-width="2"/>
+  <rect x="740" y="930" width="20" height="20" fill="#e62020"/>
+</svg>

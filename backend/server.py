@@ -92,7 +92,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "TEES",
         "description": "Heavyweight 280gsm cotton, boxy oversized cut. Screen-printed front graphic with a high-density blood red 'LOCKED ANGLE' wordmark on the back. Garment-dyed for that lived-in track day finish.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://static.prod-images.emergentagent.com/jobs/0450ab58-01ee-41cf-8117-a1dd4e85d11b/images/79713d231485340d82c42fb77b594f3470fbb6986c2e57fe18e9273ab81beb95.png",
+        "image_url": "/products/tee.svg",
         "featured": True,
         "tagline": "280gsm. Built to abuse.",
     },
@@ -103,7 +103,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HOODIES",
         "description": "500gsm brushed-back fleece. Heavy drawcords, ribbed cuffs, kangaroo pocket. Embroidered chest hit. Made for the cold morning paddock and the long drive home.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1680292783974-a9a336c10366?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxibGFjayUyMGhvb2RpZSUyMGFwcGFyZWwlMjBwcm9kdWN0fGVufDB8fHx8MTc3OTcwMDY4M3ww&ixlib=rb-4.1.0&q=85",
+        "image_url": "/products/hoodie.svg",
         "featured": True,
         "tagline": "500gsm. Cold paddock approved.",
     },
@@ -114,7 +114,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "OUTERWEAR",
         "description": "Water resistant coach jacket cut from heavy nylon-cotton. Snap front, deep hand pockets, oversized back graphic. Wind-blocking and smoke-resistant in spirit.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1614214191247-5b2d3a734f1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxibGFjayUyMGhvb2RpZSUyMGFwcGFyZWwlMjBwcm9kdWN0fGVufDB8fHx8MTc3OTcwMDY4M3ww&ixlib=rb-4.1.0&q=85",
+        "image_url": "/products/jacket.svg",
         "featured": True,
         "tagline": "Coach cut. Heavy nylon.",
     },
@@ -125,7 +125,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HEADWEAR",
         "description": "Structured 6-panel snapback in pitch black. Raised embroidery front, woven label on back. Flat brim. Locked angle, locked in.",
         "sizes": ["ONE SIZE"],
-        "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/cap.svg",
         "featured": False,
         "tagline": "6-panel. Flat brim. Pure black.",
     },
@@ -136,7 +136,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "TEES",
         "description": "Mid-weight 220gsm tee with a katakana back print. Boxy fit, dropped shoulder. For the obsessives who can read it without the translation.",
         "sizes": ["S", "M", "L", "XL"],
-        "image_url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/tee.svg",
         "featured": True,
         "tagline": "220gsm. Katakana print.",
     },
@@ -147,7 +147,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HOODIES",
         "description": "Pullover hoodie with exhaust orange tonal stitch. Heavy panel construction across shoulders. Numbered batch tag inside the hem.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/hoodie.svg",
         "featured": False,
         "tagline": "Batch-numbered. Limited.",
     },
@@ -158,7 +158,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HEADWEAR",
         "description": "Heavy ribbed cuff beanie. Acrylic-wool blend. Woven label stitched on the cuff. Built for paddock mornings.",
         "sizes": ["ONE SIZE"],
-        "image_url": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/beanie.svg",
         "featured": False,
         "tagline": "Acrylic-wool. Heavy cuff.",
     },
@@ -169,7 +169,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "ACCESSORIES",
         "description": "Pack of 5 die-cut vinyl decals. Weatherproof. Outdoor rated. For your bumper, your tool box, your laptop, your enemies' bumpers.",
         "sizes": ["ONE SIZE"],
-        "image_url": "https://images.unsplash.com/photo-1601933470928-c6f4ed1e9385?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/decals.svg",
         "featured": False,
         "tagline": "Pack of 5. Weatherproof.",
     },
@@ -180,7 +180,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "TEES",
         "description": "Heavy long sleeve tee. Sleeve hit reads 'TANDEM ONLY' down the forearm. Ribbed cuffs. Built for the late season.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/longsleeve.svg",
         "featured": False,
         "tagline": "Sleeve hit. Heavy cotton.",
     },
@@ -191,7 +191,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "OUTERWEAR",
         "description": "Quilted nylon bomber. Heavy YKK zip. Internal pocket for your phone, your keys, your trust issues. Numbered batch tag.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/jacket.svg",
         "featured": True,
         "tagline": "Quilted nylon. YKK.",
     },
@@ -202,7 +202,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HOODIES",
         "description": "Classic heavyweight crewneck. Brushed inside. Tonal embroidered chest. No hood, no nonsense.",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "image_url": "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/crewneck.svg",
         "featured": False,
         "tagline": "Heavyweight. Tonal stitch.",
     },
@@ -213,7 +213,7 @@ SEED_PRODUCTS: List[dict] = [
         "category": "HEADWEAR",
         "description": "Unstructured 5-panel cap. Brushed twill. Curved brim. Discreet rubber tab on side.",
         "sizes": ["ONE SIZE"],
-        "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+        "image_url": "/products/cap.svg",
         "featured": False,
         "tagline": "5-panel. Brushed twill.",
     },
@@ -229,6 +229,14 @@ async def seed_products():
             docs.append(prod.model_dump())
         await db.products.insert_many(docs)
         logging.info(f"Seeded {len(docs)} products")
+    else:
+        # Refresh image_url on existing records so seed image changes propagate
+        for p in SEED_PRODUCTS:
+            await db.products.update_one(
+                {"slug": p["slug"]},
+                {"$set": {"image_url": p["image_url"]}},
+            )
+        logging.info(f"Refreshed image_url on {len(SEED_PRODUCTS)} products")
 
 
 def _strip_id(doc: dict) -> dict:
