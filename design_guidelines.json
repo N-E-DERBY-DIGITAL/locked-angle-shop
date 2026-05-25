@@ -1,0 +1,134 @@
+{
+  "theme": "dark",
+  "archetype": "5 (Luxury) + 2 (Performance Pro)",
+  "colors": {
+    "background": "#0a0a0a",
+    "foreground": "#f0ede8",
+    "primary": "#e62020",
+    "primary_foreground": "#0a0a0a",
+    "secondary": "#111111",
+    "secondary_foreground": "#f0ede8",
+    "accent": "#ff5500",
+    "accent_foreground": "#0a0a0a",
+    "muted": "#1a1a1a",
+    "muted_foreground": "#888888",
+    "border": "#222222"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Bebas Neue",
+      "weight": "400",
+      "style": "uppercase, tracking-tight",
+      "sizes": {
+        "h1": "text-4xl sm:text-5xl lg:text-6xl",
+        "h2": "text-2xl sm:text-3xl lg:text-4xl",
+        "h3": "text-xl sm:text-2xl"
+      }
+    },
+    "body": {
+      "font_family": "Chivo",
+      "weight": "400, 700",
+      "style": "clean, modern sans-serif",
+      "sizes": {
+        "large": "text-lg md:text-xl",
+        "base": "text-base",
+        "small": "text-sm"
+      }
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "generous",
+    "container_padding": "px-4 md:px-8 lg:px-12",
+    "section_spacing": "py-20 md:py-32",
+    "grid_system": "bento-style for marketing, structured for product grids",
+    "border_radius": "rounded-none"
+  },
+  "motion_and_effects": {
+    "global": "Smooth scroll enabled via Lenis or framer-motion.",
+    "scroll_animations": "Text fade and slide up on scroll (Framer Motion).",
+    "hover_effects": "Buttons with red glow using `hover:shadow-[0_0_15px_rgba(230,32,32,0.6)]` and scale up slightly.",
+    "textures": "Subtle smoke/grain noise overlay fixed full screen with pointer-events-none opacity-20."
+  },
+  "components": {
+    "hero": {
+      "type": "FullWidthCinematic",
+      "description": "Large aggressive text, dark background with grain, parallax effect on background image, red accent line at the bottom.",
+      "image": "hero_drift_car"
+    },
+    "marquee": {
+      "type": "ScrollingTicker",
+      "description": "Repeating text 'LOCKED ANGLE · DRIFT CULTURE · JDM · BUILT SIDEWAYS · SMOKE & STEEL ·'. Fast/medium speed. Font Bebas Neue."
+    },
+    "product_card": {
+      "type": "DarkCard",
+      "description": "Clean product image, dark background (#111111), red glow on hover. Minimal details."
+    },
+    "brand_statement": {
+      "type": "FullWidthText",
+      "description": "White text on black. High impact. Heavy padding."
+    },
+    "collection_banner": {
+      "type": "BannerWithCTA",
+      "description": "Dark gritty streetwear model image as background with overlay, bold red CTA button.",
+      "image": "collection_banner"
+    },
+    "buttons": {
+      "style": "Square edges (rounded-none), pure red bg or transparent with red border. Red glow on hover.",
+      "primary": "bg-[#e62020] text-[#0a0a0a] hover:bg-[#ff5500]"
+    }
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0450ab58-01ee-41cf-8117-a1dd4e85d11b/images/700c6f590b4e4053591209db060e11ce9470d226828e68da9207019cfdefb0f4.png",
+      "description": "Cinematic drift car with massive smoke, dark luxury motorsport vibe."
+    },
+    "collection_banner_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0450ab58-01ee-41cf-8117-a1dd4e85d11b/images/0813ed2140629a7c256d7c777cb6b8c18a09c2af0a1d7eb70bd2ad010e9df16b.png",
+      "description": "Gritty streetwear model with red neon accent."
+    },
+    "about_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/0450ab58-01ee-41cf-8117-a1dd4e85d11b/images/1f779d9b1e8e2e0223c2e9e904cf1ace4bb8f7b91a4a5feea329d07f9f815ae7.png",
+      "description": "Moody underground garage, red lights, concrete floor."
+    },
+    "products": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/0450ab58-01ee-41cf-8117-a1dd4e85d11b/images/79713d231485340d82c42fb77b594f3470fbb6986c2e57fe18e9273ab81beb95.png",
+        "description": "Premium black streetwear t-shirt on carbon fiber texture.",
+        "title": "Sideways Heavyweight Tee",
+        "price": "$45.00"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1680292783974-a9a336c10366?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxibGFjayUyMGhvb2RpZSUyMGFwcGFyZWwlMjBwcm9kdWN0fGVufDB8fHx8MTc3OTcwMDY4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Black hoodie product",
+        "title": "Track Day Hoodie",
+        "price": "$85.00"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1614214191247-5b2d3a734f1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxibGFjayUyMGhvb2RpZSUyMGFwcGFyZWwlMjBwcm9kdWN0fGVufDB8fHx8MTc3OTcwMDY4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Black and white hoodie model",
+        "title": "Smoke & Steel Jacket",
+        "price": "$120.00"
+      }
+    ],
+    "ambiance": [
+      {
+        "url": "https://images.unsplash.com/photo-1613243700855-53ae46fd281e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxkcmlmdCUyMGNhciUyMHNtb2tlfGVufDB8fHx8MTc3OTcwMDY4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Ferrari track"
+      },
+      {
+        "url": "https://images.pexels.com/photos/18818785/pexels-photo-18818785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "JDM cars night"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Strictly use the provided colors: #0a0a0a (black base), #f0ede8 (off-white text), #e62020 (blood red accents), #ff5500 (exhaust orange highlights).",
+    "Do NOT use any pastels, bright whites, floral, rounded fonts, or purple gradients.",
+    "Implement smooth scrolling, parallax, and text slide-up animations using Framer Motion.",
+    "All interactive and key informational elements MUST include a data-testid attribute in kebab-case based on their role.",
+    "Add a fixed noise/grain overlay div (`pointer-events-none`) across the app.",
+    "Use square borders (`rounded-none`) for all cards, form inputs, and buttons to maintain the aggressive raw look.",
+    "Use 'Bebas Neue' for all main headings (uppercase) and 'Chivo' for body text.",
+    "Do not use generic placeholder images, ONLY use the URLs provided in the media object."
+  ]
+}
